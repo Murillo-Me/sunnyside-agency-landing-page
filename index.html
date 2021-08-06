@@ -5,41 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="styles/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+
+
+  <title>Sunnyside agency landing page</title>
+
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <header>
+    <div class="nav-container">
+      <img id="header-logo" src="images/logo.svg" alt="sunnyside logo">
+      <nav class="navbar">
+        <ul class="nav__links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <button id="cta">CONTACT</button>
+    </div>
+    <h1>WE ARE CREATIVES</h1>
+    <img id="downward-arrow" src="images/icon-arrow-down.svg" alt="Arrow pointing down" srcset="">
+  </header>
+  <section class="main-grid">
+    <div class="grid-txt" id="txt-1">
+      <h2>Transform your brand</h2>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="#"> LEARN MORE </a>
+  </div>
+    <img class="grid-img" id="img-1" src="images/desktop/image-transform.jpg" alt="egg on a yellow background" srcset="">
+    <img class="grid-img" id="img-2" src="images/desktop/image-stand-out.jpg" alt="pink wine glass" srcset="">
+    <div class="grid-txt" id="txt-2">
+      <h2>Stand out to the right audience</h2>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <a href="#"> LEARN MORE </a>
+    </div>
+    <div class="card" id="card1">
+      <h3>Graphic design</h3>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    </div>
+    <div class="card" id="card2">
+      <h3>Photography</h3>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+  </section>
 
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+  
 
   Client testimonials
 
