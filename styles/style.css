@@ -153,7 +153,10 @@ section.main-grid {
 
 .card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 100%;
+    /* width: 100vw;
+    height: 50vh; */
 }
 
 .card {
@@ -185,7 +188,7 @@ section.main-grid {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     font-family: var(--font2);
-    font-size: 2.5em;
+    font-size: 2rem;
     font-weight: 700;
     
 }
@@ -197,7 +200,7 @@ section.main-grid {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     font-family: var(--font1);
-    font-size: 1.3em;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 2.1rem;
     width: 55%;
@@ -205,4 +208,56 @@ section.main-grid {
 
 #card1 p {
     color: var(--prymary-dark-moderate-cyan);
+}
+
+.testimonials>h2 {
+    font-family: var(--font2);
+    font-size: 1.3rem;
+    color: var(--neutral-blue4);
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+section.testimonials .testimonials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    /* flex: 33%; */
+}
+
+.testimonial-card img {
+    display: block;
+    margin: 3rem auto;
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+}
+
+.testimonial-card p {
+    font-family: var(--font1);
+    color: var(--neutral-blue2);
+    margin-inline: 1.8rem;
+    margin-bottom: 3.5rem;
+}
+
+.testimonial-card h4 {
+    font-family: var(--font2);
+    color: var(--neutral-blue1);
+    font-weight: 900;
+    margin-inline: 1.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.testimonial-card h5 {
+    font-family: var(--font1);
+    color: var(--neutral-blue4);
+    margin-inline: 1.8rem;
+    margin-bottom: 0.4rem;
+}
+
+section.testimonials .testimonial-card {
+    text-align: center;
 }
