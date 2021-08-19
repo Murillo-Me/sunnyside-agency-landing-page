@@ -300,6 +300,10 @@ footer ul li a {
     font-family: var(--font1);
 }
 
+footer ul li a:hover {
+    color: white;
+}
+
 footer ul.footer-menu li {
     margin: auto 1rem;
 }
