@@ -4,6 +4,7 @@
     --prymary-dark-desaturated-cyan: hsl(167, 40%, 24%);
     --prymary-dark-blue: hsl(198, 62%, 26%);
     --prymary-dark-moderate-cyan: hsl(168, 34%, 41%);
+    --prymary-light-cyan: #90D4C5;
 
     --neutral-blue1: hsl(212, 27%, 19%);
     --neutral-blue2: hsl(213, 9%, 39%);
@@ -225,7 +226,7 @@ section.testimonials .testimonials-container {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    /* flex: 33%; */
+    margin-bottom: 5rem;
 }
 
 .testimonial-card img {
@@ -260,4 +261,49 @@ section.testimonials .testimonials-container {
 
 section.testimonials .testimonial-card {
     text-align: center;
+}
+
+section.bottom-images {
+    display: flex;
+}
+
+section.bottom-images img {
+    max-width: 25%;
+}
+
+footer {
+    background-color: var(--prymary-light-cyan);
+    height: 30vh;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+#footer-logo {
+    display: inline;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    fill: var(--prymary-dark-desaturated-cyan);
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--prymary-dark-moderate-cyan);
+    font-family: var(--font1);
+}
+
+footer ul.footer-menu li {
+    margin: auto 1rem;
+}
+
+footer ul.social-media-buttons li {
+    margin: auto 0.5rem;
 }
