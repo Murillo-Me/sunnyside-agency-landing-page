@@ -20,15 +20,20 @@
 <body>
   <header>
     <div class="nav-container">
-      <img id="header-logo" src="images/logo.svg" alt="sunnyside logo">
+      <div class="logo-hamburger-container">
+        <img id="header-logo" src="images/logo.svg" alt="sunnyside logo">
+        <div class="openMenu"><i id="hamburger-icon" class="fa fa-bars fa-lg"></i></div>
+      </div>
       <nav class="navbar">
         <ul class="nav__links">
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
+          <button id="cta">CONTACT</button>
+          <div class="closeMenu"><i class="fa fa-times fa-2x"></i></div>
         </ul>
       </nav>
-      <button id="cta">CONTACT</button>
+      
     </div>
     <h1>WE ARE CREATIVES</h1>
     <img id="downward-arrow" src="images/icon-arrow-down.svg" alt="Arrow pointing down" srcset="">
@@ -111,6 +116,7 @@
       <li><a href="http://pinterest.com"><i class="fab fa-pinterest fa-lg"></i></a></li>
     </ul>
   </footer>
-  
+
+  <script src="./scripts/app.js"></script>
 </body>
 </html>
