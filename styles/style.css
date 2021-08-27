@@ -38,6 +38,10 @@ body {
     margin-right: auto;
 }
 
+.closeMenu {
+    display: none;
+}
+
 header {
     background: url(../images/desktop/image-header.jpg) no-repeat center center;
     /* width: 100vw; */
@@ -338,7 +342,8 @@ footer ul.social-media-buttons li {
     }
 
     .closeMenu {
-        color: var(--neutral-blue2)
+        color: var(--neutral-blue2);
+        display: block;
     }
 
     .logo-hamburger-container i {
